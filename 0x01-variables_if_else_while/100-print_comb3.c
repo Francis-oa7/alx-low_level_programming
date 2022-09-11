@@ -11,7 +11,7 @@ int main(void)
 
 	for (tenth = 0; tenth <= 9; tenth++)
 	{
-		for (one = tenth +1; one <= 9; one++)
+		for (one = tenth + 1; one <= 9; one++)
 		{
 			putchar(tenth + '0');
 			putchar(one + '0');
