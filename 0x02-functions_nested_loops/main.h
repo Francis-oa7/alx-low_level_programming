@@ -1,5 +1,5 @@
-#ifndef MAIN_H_
-#define MAIN_H_
+#ifndef MAIN
+#define MAIN
 
 int _putchar(char c);
 void print_alphabet(void);
