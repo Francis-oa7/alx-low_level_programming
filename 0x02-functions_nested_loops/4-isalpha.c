@@ -3,7 +3,7 @@
 /**
  * _isalpha - checks if value is an alphabeth
  * 
- * @c - Number to be checked
+ * @c: Number to be checked
  * 
  * Return: 1 on (Success) Or 0 (Failure)
  */
