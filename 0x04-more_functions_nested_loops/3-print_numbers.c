@@ -4,7 +4,6 @@
  * print_numbers - prints numbers fro 0-9
  * Return: null
  */
-
 void print_numbers(void)
 {
 	int i = 0;
@@ -15,4 +14,4 @@ void print_numbers(void)
 		i++;
 	}
 	_putchar('\n');
-} 
+}
