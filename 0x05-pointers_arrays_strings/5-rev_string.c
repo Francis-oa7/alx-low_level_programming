@@ -17,7 +17,7 @@ void print_rev(char *s)
 
 	while (right != j)
 	{
-		char temp s[right];
+		char temp = s[right];
 		int left = i - right - 1;
 		s[right] = s[left];
 		s[left] = temp;
