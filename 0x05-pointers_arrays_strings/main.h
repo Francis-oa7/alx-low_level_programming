@@ -1,5 +1,5 @@
 #ifndef MAIN_H
-#define
+#define MAIN_H
 int _putchar(int c);
 void swap_int(int *a, int *b);
 
