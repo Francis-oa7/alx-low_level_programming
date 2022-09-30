@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+/**
+ * main - prints multiplication of arguments
+ * @argc: number of arguments
+ * @argv: array of arguments
+ * Return: 0 on success
+ */
+
+int main(int argc, char *argv[])
+{
+	int i, total;
+
+	total = 1;
+
+	if (argc == 3)
+	{
+		for (i = 1; i < argc; i++)
+			total *= (int) argv[i];
+		printf("%d\n", total);
+	}
+	else
+		printf("Error");
+
+	return (0);
+}
