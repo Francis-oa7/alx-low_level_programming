@@ -19,9 +19,9 @@ int main(int argc, char *argv[])
 		for (i = 1; i < argc; i++)
 			total *= atoi(argv[i]);
 		printf("%d\n", total);
+		return (0);
 	}
 	else
 		printf("Error");
-
-	return (0);
+		return (1);
 }
