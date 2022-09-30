@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - prints multiplication of arguments
@@ -16,7 +17,7 @@ int main(int argc, char *argv[])
 	if (argc == 3)
 	{
 		for (i = 1; i < argc; i++)
-			total *= (int) argv[i];
+			total *= atoi(argv[i]);
 		printf("%d\n", total);
 	}
 	else
